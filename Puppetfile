@@ -11,3 +11,10 @@ mod 'puppetlabs/stdlib'
 mod 'jfryman/nginx'
 
 # Modules from Github
+
+# Personal modules
+mod 'roles',
+	:git => "ssh://git@git.hooyberghs.int/~/repo/roles"
+mod 'profiles',
+	:git => "ssh://git@git.hooyberghs.int/~/repo/profiles"
+
