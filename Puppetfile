@@ -1,7 +1,8 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'puppetlabs/stdlib'
+mod 'puppetlabs/apt'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/firewall'
-mod 'puppetlabs/apt'
+mod 'puppetlabs/motd',
+mod 'puppetlabs/stdlib'
 mod 'jfryman/nginx'
