@@ -8,10 +8,11 @@ mod 'puppetlabs/motd'
 mod 'puppetlabs/stdlib'
 
 # Other puppet forge modules
-mod 'jfryman/nginx'
 mod 'saz/ssh'
 
 # Modules from Github
+mod 'nginx',
+  :git => "https://github.com/jfryman/puppet-nginx.git"
 
 # Personal modules
 mod 'jhooyberghs_fw',
