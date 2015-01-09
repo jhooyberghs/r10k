@@ -13,8 +13,10 @@ mod 'jfryman/nginx'
 # Modules from Github
 
 # Personal modules
-mod 'roles',
-	:git => "ssh://git@git.hooyberghs.int/~/repo/roles"
+mod 'jhooyberghs_fw',
+  :git => "ssh://git@git.hooyberghs.int/~/repo/jhooyberghs_fw"
 mod 'profiles',
 	:git => "ssh://git@git.hooyberghs.int/~/repo/profiles"
+mod 'roles',
+	:git => "ssh://git@git.hooyberghs.int/~/repo/roles"
 
