@@ -9,6 +9,7 @@ mod 'puppetlabs/stdlib'
 
 # Other puppet forge modules
 mod 'jfryman/nginx'
+mod 'saz/ssh'
 
 # Modules from Github
 
