@@ -14,9 +14,9 @@ mod 'saz/ssh'
 mod 'nginx',
   :git => "https://github.com/jfryman/puppet-nginx.git"
 mod "postfix",
-# :git => "https://github.com/thias/puppet-postfix.git"
-  :git => 'https://github.com/jhooyberghs/puppet-postfix.git',
-	:ref => 'f6ce5b88f2f15e6ad1c48c708a7d464918d15891'
+  :git => "https://github.com/thias/puppet-postfix.git"
+#  :git => 'https://github.com/jhooyberghs/puppet-postfix.git',
+#	:ref => 'f6ce5b88f2f15e6ad1c48c708a7d464918d15891'
 
 # Personal modules
 mod 'jhooyberghs_fw',
