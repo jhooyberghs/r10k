@@ -16,7 +16,7 @@ mod 'nginx',
 mod "postfix",
 # :git => "https://github.com/thias/puppet-postfix.git"
   :git => 'https://github.com/jhooyberghs/puppet-postfix.git',
-	:ref => 'd2ab4f7b20cc1153464fccb61b55bf5883c3c0df'
+	:ref => 'f6ce5b88f2f15e6ad1c48c708a7d464918d15891'
 
 # Personal modules
 mod 'jhooyberghs_fw',
