@@ -19,7 +19,7 @@ mod "postfix",
 #	:ref => 'f6ce5b88f2f15e6ad1c48c708a7d464918d15891'
 mod "sslh",
 	:git => "https://github.com/jhooyberghs/puppet-sslh",
-	:ref => 'initial',
+	:ref => 'initial'
 
 # Personal modules
 mod 'jhooyberghs_fw',
